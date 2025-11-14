@@ -1,0 +1,93 @@
+body {
+    font-size: 15pt;
+    background-color: #eceff8;
+    margin: 1rem;
+    word-wrap: break-word;
+   
+}
+
+input[type=text],input[type=password] {
+  margin:1rem 1rem 0rem 0rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border:1px solid #ccc;
+  background-color: #eee
+}
+
+
+button{
+  
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+button:hover
+{
+  padding:10px 20px 10px 20px;transition: ease-in-out 0.7s;
+}
+
+
+.header {
+    margin:-1rem -1rem 0rem -1rem;
+    background-color: rgba(0,0,0,0.7);
+    padding: 1rem;
+    color: #fff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+ 
+}
+
+.topmenu {
+ margin: 10px;
+}
+
+.topbtn {
+  text-align: center; margin:1rem;
+ color: #fff;
+ float: left;
+ border-radius: 5px;
+ width:30%;
+ background-color: #303F9F; 
+ font-size:1rem;
+ padding: 0.5rem;
+ box-shadow: 5px 5px 10px #acacac;
+}
+
+.footer{
+  
+    padding: 2rem;
+    position: absolute;
+    bottom:0;
+    
+}
+
+
+.content {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    font-size:1rem;
+}
+
+
+.numbox {
+  background-color: #EF5350;
+  color: #fff;
+  padding: 2px 5px 2px 5px;
+  border-radius: 3px;
+}
+
+.code {
+  background-color: #eee;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  color:#EF5350;
+}
+
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
